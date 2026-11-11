@@ -1,3 +1,18 @@
+# Ambientes virtuais
 .venv/
+venv/
+
+# Cache Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+
+# Configurações locais
+.env
+.env.*
+
+# OpenMotor original (clone de referência)
+/external/
+
+# Cache do PowerShell criado dentro do projeto
+/Microsoft/
